@@ -25,4 +25,21 @@ public class Attraction {
     private String name;
     private String location;
     private String description;
+    private String photo;
+
+    public Attraction(String name, String location, String description, String photo) {
+        this.id = null;
+        this.name = name;
+        this.location = location;
+        this.description = description;
+        this.photo = photo;
+    }
+    
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
 }
